@@ -34,6 +34,8 @@ const Dashboard: React.FC = () => {
         border: "1px solid #c0c0c0",
       }}
     >
+      <div>Tip: Click on a node to expand/collapse</div>
+      <div>Tree is also zoomable and draggable</div>
       {/* todo: cast type to React component */}
       {/* @ts-ignore*/}
       <Tree
